@@ -11,13 +11,16 @@ class MyDialog {
     required this.context,
   });
 
-  Future<void> normalDialog(
-      {required String title, required String subTitle}) async {
+  Future<void> normalDialog({
+    required String title,
+    required String subTitle,
+    Widget? contentWidget,
+  }) async {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
         title: ListTile(
-          leading: SizedBox(
+          leading: const SizedBox(
             width: 80,
             child: ShowImage(),
           ),
@@ -35,6 +38,7 @@ class MyDialog {
             },
           )
         ],
+        content: contentWidget ?? const SizedBox(),
       ),
     );
   }
