@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969448126340",
+    "project_id": "ungqrcodeproj",
+    "storage_bucket": "ungqrcodeproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969448126340:android:9102a788dfecad5a0b0fd1",
+        "android_client_info": {
+          "package_name": "com.flutterthailand.ungqrcodeproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969448126340-em7hok7irti78j0rgncgsb0en3gmb5l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL8oiUCkJ1D4PB98NuYOWitrVbLkt6nAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969448126340-em7hok7irti78j0rgncgsb0en3gmb5l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
